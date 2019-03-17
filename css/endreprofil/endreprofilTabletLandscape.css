@@ -1,0 +1,451 @@
+/*
+Denne siden er utviklet av Fredrik Hulaas og Fredrik Ravndal. Sist endret 23.01.2018
+Denne siden er kontrollert av Ola Bredviken, Håvard Betten. Sist gang 26.01.2018
+ */
+
+body, html {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    font-family: georgia, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*
+*** header including logo.html
+*/
+.logosection {
+    width: 100%;
+    height: 80px;
+    margin: 0 auto 0 auto;
+    background-image: url("../../picture/default/background-desktop.png");
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+
+#logo {
+    width: 230px;
+    height: 60px;
+    margin: 10px 0 0 20%;
+}
+
+
+
+
+/*
+*** nav including menu.html
+*/
+.dropbtn {
+    display: none;
+}
+
+#tilbake {
+    display: none;
+}
+
+#loggUtMeny {
+    float: right;
+}
+
+#faq {
+    border-bottom: 1px solid black;
+    background-color: lightblue;
+}
+
+.dropdown-content {
+
+
+
+
+}
+
+.dropdown-content ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.dropdown-content ul li {
+    float: left;
+}
+
+.dropdown-content a {
+
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    padding: 14px 20px;
+    text-decoration: none;
+
+}
+
+#homepage {
+
+    margin-left: 20px;
+}
+
+.dropdown-content a:hover {
+    background-color: orange;
+}
+
+/*
+***CSS FOR ALLE FUNKSJONER STARTER HER
+ */
+
+#errorForm {
+    margin: 0;
+}
+
+#errorParagraf {
+    margin: 0 auto 0 auto;
+    padding: 0;
+    width: 100%;
+    background-color: lightsalmon;
+    font-size: 20px;
+    text-align: center
+
+}
+
+#tilbakemelding {
+    margin: 0;
+    padding: 0;
+}
+
+#rammeOverskrift {
+    text-align: center;
+    border-bottom: 1px solid black;
+    background-color: #EBF4FB;
+}
+
+
+
+#ytre {
+    background-color: #EBF4FB;
+    display: flex;
+}
+
+
+#kolonne1Desktop {
+    border-right: 1px solid black;
+    width: 40%;
+}
+
+
+
+
+#kolonne1 {
+    width: 360px;
+
+
+}
+
+#kolonne2 {
+
+
+}
+
+#rammeBilde {
+
+    padding: 2px 10px 0 10px;
+
+    width: 330px;
+
+}
+
+
+
+#bildeProfil {
+    display: block;
+    margin: 0 auto 0 auto;
+    height: 250px;
+    width: 220px;
+
+}
+
+#rammeVelkommen {
+    padding: 2px 10px 10px 20px;
+
+    width: 330px;
+}
+
+#minBeskrivelse {
+    padding: 2px 10px 0 20px;
+
+    width: 330px;
+}
+
+.textBeskrivelse {
+    width: 320px;
+}
+
+#tableRamme {
+    padding: 2px 10px 0 20px;
+
+    width: 330px;
+}
+
+.rammeInteresser {
+    width: 100%;
+
+}
+
+.rammeStudium {
+    width: 100%;
+}
+
+#kolonne3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+
+}
+
+aside {
+    margin: 0 10px 0 0;
+    padding: 10px 0 25px 30px;
+
+    width: 43%;
+
+}
+
+aside:nth-child(odd) {
+    border-right: 1px solid black;
+}
+
+#radiobuttonSynlig {
+    margin: 10px 5px 0 0;
+    height: 18px;
+    width: 18px;
+}
+
+#radiobuttonIkkeSynlig {
+    margin: 10px 5px 0 10px;
+    height: 18px;
+    width: 18px;
+}
+
+textarea {
+    width: 250px;
+    height: 70px;
+}
+
+select {
+    margin: 10px 0 0 0;
+    width: 235px;
+    height: 25px;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+    margin: 10px 0 0 0;
+    width: 230px;
+    height: 20px;
+}
+
+input[type="submit"] {
+    margin: 10px 0 0 0;
+    width: 235px;
+    height: 25px;
+}
+
+#filetoupload {
+    width: 250px;
+    margin: 20px 0 0 0;
+}
+
+
+
+/*
+*** Skrift på siden
+ */
+#overskrift {
+    font-size: 30px;
+    margin: 0;
+    padding: 10px 0 10px 0;
+}
+
+
+#overskrift1Velkommen {
+    font-size: 20px;
+}
+
+#paragrafInnloggetBruker {
+    font-size: 16px;
+}
+
+#pragrafEpostBruker {
+    font-size: 16px;
+}
+
+#paragrafSynligBruker {
+    font-size: 16px;
+}
+
+#overskrift1Beskrivelse {
+    font-size: 20px;
+}
+
+#visProfil {
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+}
+
+#headerSynlig {
+    font-size: 14px;
+    margin: 20px 0 10px 0;
+}
+
+#header3 {
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+}
+
+#interesser {
+    font-size: 20px;
+    margin: 20px 0 10px 0;
+}
+
+#header2Interesser {
+    font-size: 14px;
+    margin: 20px 0 10px 0;
+}
+
+#header2Interesser2 {
+    font-size: 14px;
+    margin: 20px 0 10px 0;
+}
+
+#slettInteresser {
+    font-size: 20px;
+    margin: 70px 0 10px 0;
+}
+
+#studium {
+    font-size: 20px;
+    margin: 20px 0 10px 0;
+}
+
+#header2Studium {
+    font-size: 14px;
+    margin: 20px 0 10px 0;
+}
+
+#header2Studium2 {
+    font-size: 14px;
+    margin: 20px 0 10px 0;
+}
+
+#endreStudium {
+    font-size: 20px;
+    margin: 70px 0 10px 0;
+}
+
+#lastOpp {
+    font-size: 20px;
+    margin: 30px 0 0 0;
+}
+
+#headerEmail {
+    font-size: 20px;
+    margin: 30px 0 0 0;
+}
+
+#emailText {
+    font-size: 16px;
+    margin: 20px 0 0 0;
+}
+
+#header1Passord {
+    font-size: 20px;
+    margin: 0 0 20px 0;
+}
+
+#header2GammeltPassord {
+    font-size: 16px;
+    margin: 0;
+}
+
+#header2NyttPassord {
+    font-size: 16px;
+    margin: 20px 0 0 0;
+}
+
+#header2NyttPassordIgjen {
+    font-size: 16px;
+    margin: 20px 0 0 0;
+}
+
+#slettProfil {
+    font-size: 20px;
+    margin: 20px 0 0 0;
+}
+
+#header2slettProfil {
+    font-size: 14px;
+}
+
+
+
+
+input[type=text]:focus {
+    background-color: yellow;
+}
+
+input[type=password]:focus {
+    background-color: yellow;
+}
+input[type=email]:focus {
+    background-color: yellow;
+}
+textarea:focus {
+    background-color: lightyellow;
+}
+
+table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th, table td{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+table tr:nth-child(odd){
+    background-color: white;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #c7d4e5;
+
+}
+
+
+
+
+#footerheader {
+    background-color: white;
+    text-align: center;
+}
+
+#utvikletAv {
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial;
+}

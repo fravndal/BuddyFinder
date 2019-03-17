@@ -1,0 +1,618 @@
+/*
+Denne siden er utviklet av Fredrik Hulaas og Fredrik Ravndal. Sist endret 23.01.2018
+Denne siden er kontrollert av Ola Bredviken, Håvard Betten. Sist gang 26.01.2018
+ */
+
+body, html {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    font-family: georgia, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*
+*** header including logo.html
+*/
+.logosection {
+    width: 100%;
+    height: 80px;
+    margin: 0 auto 0 auto;
+    background-image: url("../../picture/default/background-desktop.png");
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+
+#logo {
+    width: 230px;
+    height: 60px;
+    margin: 10px 0 0 20%;
+}
+
+
+
+
+/*
+*** nav including menu.html
+*/
+.dropbtn {
+    display: none;
+}
+
+#tilbake {
+    display: none;
+}
+
+#loggUtMeny {
+    float: right;
+}
+
+#faq {
+    border-bottom: 1px solid black;
+    background-color: lightblue;
+}
+
+.dropdown-content {
+
+
+
+
+}
+
+.dropdown-content ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.dropdown-content ul li {
+    float: left;
+}
+
+.dropdown-content a {
+
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    padding: 14px 20px;
+    text-decoration: none;
+
+}
+
+#homepage {
+
+    margin-left: 150px;
+}
+
+.dropdown-content a:hover {
+    background-color: orange;
+}
+
+/*
+***CSS FOR ALLE FUNKSJONER STARTER HER
+ */
+
+#errorForm {
+    margin: 0;
+}
+
+#errorParagraf {
+    margin: 0 auto 0 auto;
+    padding: 0;
+    width: 100%;
+    background-color: lightsalmon;
+    font-size: 20px;
+    text-align: center
+
+}
+
+#rammeOverskrift {
+    text-align: center;
+    border-bottom: 1px solid black;
+    background-color: #EBF4FB;
+}
+
+
+
+#ytre {
+    background-color: #EBF4FB;
+    display: flex;
+}
+
+
+#kolonne1Desktop {
+    border-right: 1px solid black;
+}
+
+
+
+
+#kolonne1 {
+    width: 360px;
+
+
+}
+
+#kolonne2 {
+
+
+}
+
+#rammeBilde {
+
+    padding: 2px 10px 0 10px;
+
+    width: 330px;
+
+}
+
+
+
+#bildeProfil {
+    display: block;
+    margin: 0 auto 0 auto;
+    height: 250px;
+    width: 220px;
+
+}
+
+#rammeVelkommen {
+    padding: 2px 10px 10px 20px;
+
+    width: 330px;
+}
+
+#minBeskrivelse {
+    padding: 2px 10px 0 20px;
+
+    width: 330px;
+}
+
+.textBeskrivelse {
+    width: 320px;
+}
+
+#tableRamme {
+    padding: 2px 10px 0 20px;
+
+    width: 330px;
+}
+
+.rammeInteresser {
+    width: 100%;
+
+}
+
+.rammeStudium {
+    width: 100%;
+}
+
+/*
+*** Kolonne3 starter her
+ */
+
+#kolonne3 {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#synligForm {
+    margin: 0 10px 0 0;
+    padding: 10px 0 25px 30px;
+
+    width: 46%;
+    border-right: 1px solid black;
+
+}
+
+#radiobuttonSynlig {
+    margin: 10px 5px 0 10px;
+    height: 18px;
+    width: 18px;
+}
+
+#radiobuttonIkkeSynlig {
+    margin: 10px 5px 0 10px;
+    height: 18px;
+    width: 18px;
+}
+
+#buttonsavesynlig {
+    margin: 20px 0 0 10px;
+    width: 115px;
+    height: 25px;
+}
+
+#infoForm {
+    margin: 0 0 10px 0;
+    padding: 10px 10px 25px 20px;
+
+    width: 46%;
+}
+
+
+
+#userinfo {
+    width: 400px;
+    height: 80px;
+    margin: 0 0 0 10px;
+}
+
+#buttonsaveuserinfo {
+    margin: 10px 0 0 10px;
+    width: 115px;
+    height: 25px;
+
+}
+
+#interesseForm {
+    margin: 0 10px 0 0;
+    padding: 2px 0 25px 30px;
+
+    width: 46%;
+    border-right: 1px solid black;
+}
+
+#valgtInteresse {
+    margin: 10px 0 0 10px;
+    width: 250px;
+    height: 25px;
+}
+
+#nyInteresse {
+    margin: 10px 0 0 10px;
+    width: 247px;
+    height: 20px;
+}
+
+#knappLeggTilInteresse {
+    margin: 10px 0 0 10px;
+    width: 250px;
+    height: 25px;
+}
+
+#knappOpprettInteresse {
+    margin: 10px 0 0 10px;
+    width: 250px;
+    height: 25px;
+}
+
+#valgtInteresseSlett {
+    margin: 10px 0 0 10px;
+    width: 250px;
+    height: 25px;
+}
+
+#knappSlettInteresse {
+    margin: 10px 0 0 10px;
+    width: 250px;
+    height: 25px;
+}
+
+#studiumForm {
+    margin: 0 0 10px 0;
+    padding: 2px 10px 25px 20px;
+
+    width: 46%;
+}
+
+#valgtStudium {
+    margin: 10px 0 0 10px;
+    width: 250px;
+    height: 25px;
+}
+
+#nyttStudium {
+    margin: 10px 0 0 10px;
+    width: 247px;
+    height: 20px;
+}
+
+#knappLeggTilStudium {
+    margin: 10px 0 0 10px;
+    width: 250px;
+    height: 25px;
+}
+
+#valgtStudiumEndre {
+    margin: 10px 0 0 10px;
+    width: 250px;
+    height: 25px;
+}
+
+#knappEndreStudium {
+    margin: 10px 0 0 10px;
+    width: 250px;
+    height: 25px;
+}
+
+
+
+#imgUpload {
+    margin: 0 10px 0 0;
+    padding: 2px 0 25px 30px;
+
+    width: 46%;
+    border-right: 1px solid black;
+
+}
+
+#filetoupload {
+    margin: 20px 0 0 5px;
+    width: 350px;
+
+}
+
+#buttonupload {
+    margin: 20px 0 0 5px;
+    width: 115px;
+    height: 25px;
+}
+
+
+
+#emailForm {
+    margin: 0 0 10px 0;
+    padding: 10px 0 30px 25px;
+
+    width: 46.5%;
+}
+
+#emailInfo {
+    margin: 15px 0 0 2px;
+    width: 247px;
+    height: 20px;
+}
+
+#emailEndreButton {
+    margin: 20px 0 0 0;
+    width: 115px;
+    height: 25px;
+}
+
+
+
+#passordForm {
+    margin: 0 10px 0 0;
+    padding: 2px 0 25px 30px;
+
+    width: 46%;
+    border-right: 1px solid black;
+}
+
+#gammeltPassord {
+    margin: 0 0 15px 0;
+    width: 247px;
+    height: 20px;
+}
+
+#nyttPassord {
+    margin: 0 0 15px 0;
+    width: 247px;
+    height: 20px;
+}
+
+#rePassord {
+    margin: 0 0 15px 0;
+    width: 247px;
+    height: 20px;
+}
+
+.btn {
+    margin: 10px 0 0 0;
+    width: 250px;
+    height: 25px;
+}
+
+
+#slettForm {
+    padding: 10px 0 35px 25px;
+
+    width: 46.5%;
+}
+
+#knappSlettProfil {
+    margin: 10px 0 0 0;
+    width: 250px;
+    height: 60px;
+    background: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*
+*** Skrift på siden
+ */
+#overskrift {
+    font-size: 30px;
+    margin: 0;
+    padding: 10px 0 10px 0;
+}
+
+
+#overskrift1Velkommen {
+    font-size: 20px;
+}
+
+#paragrafInnloggetBruker {
+    font-size: 16px;
+}
+
+#pragrafEpostBruker {
+    font-size: 16px;
+}
+
+#paragrafSynligBruker {
+    font-size: 16px;
+}
+
+#overskrift1Beskrivelse {
+    font-size: 20px;
+}
+
+#visProfil {
+    font-size: 20px;
+    margin: 10px 0 10px 10px;
+}
+
+#headerSynlig {
+    font-size: 14px;
+    margin: 20px 0 10px 10px;
+}
+
+#header3 {
+    font-size: 20px;
+    margin: 10px 0 10px 10px;
+}
+
+#interesser {
+    font-size: 20px;
+    margin: 0 0 10px 10px;
+}
+
+#header2Interesser {
+    font-size: 14px;
+    margin: 20px 0 10px 10px;
+}
+
+#header2Interesser2 {
+    font-size: 14px;
+    margin: 20px 0 10px 10px;
+}
+
+#slettInteresser {
+    font-size: 20px;
+    margin: 70px 0 10px 10px;
+}
+
+#studium {
+    font-size: 20px;
+    margin: 0 0 10px 10px;
+}
+
+#header2Studium {
+    font-size: 14px;
+    margin: 20px 0 10px 10px;
+}
+
+#header2Studium2 {
+    font-size: 14px;
+    margin: 20px 0 10px 10px;
+}
+
+#endreStudium {
+    font-size: 20px;
+    margin: 70px 0 10px 10px;
+}
+
+#lastOpp {
+    font-size: 20px;
+    margin: 30px 0 0 5px;
+}
+
+#headerEmail {
+    font-size: 20px;
+    margin: 30px 0 0 0;
+}
+
+#emailText {
+    font-size: 16px;
+    margin: 20px 0 0 0;
+}
+
+#header1Passord {
+    font-size: 20px;
+    margin: 0 0 20px 0;
+}
+
+#header2GammeltPassord {
+    font-size: 16px;
+}
+
+#header2NyttPassord {
+    font-size: 16px;
+}
+
+#header2NyttPassordIgjen {
+    font-size: 16px;
+}
+
+#slettProfil {
+    font-size: 20px;
+    margin: 20px 0 0 0;
+}
+
+#header2slettProfil {
+    font-size: 14px;
+}
+
+
+a:focus {
+    background-color: yellow;
+}
+
+input[type=text]:focus {
+    background-color: yellow;
+}
+
+input[type=password]:focus {
+    background-color: yellow;
+}
+input[type=email]:focus {
+    background-color: yellow;
+}
+textarea:focus {
+    background-color: lightyellow;
+}
+
+table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th, table td{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+table tr:nth-child(odd){
+    background-color: white;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #c7d4e5;
+
+}
+
+
+
+
+#footerheader {
+    background-color: white;
+    text-align: center;
+
+}
+
+#utvikletAv {
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial;
+    margin: 20px 0 20px 0;
+}

@@ -1,0 +1,27 @@
+<h1 id="h1RegistrerDeg">Registerer deg!</h1>
+<p id="slang">Finn en venn på ditt universitet!</p>
+<form id="contactform" class="contactform" action="registerDatabase.php" method="post" autocomplete="off">
+      <div id="emailForm">
+        <p class="contact"><label for="email">Email</label></p>
+        <input id="email" name="epost" placeholder="eksempel@usn.no" required="" tabindex="2" type="email" pattern=".+@usn.no"
+		title="Vennligst angi en usn.no email adresse">
+      </div>
+
+      <div id="usernameForm">
+        <p class="contact"><label>Lag brukernavn</label></p>
+        <input id="username" name="brukernavn" placeholder="Brukernavn" required="" tabindex="3" type="text">
+      </div>
+
+      <div id="passwordForm">
+        <p class="contact"><label>Lag passord</label></p>
+        <input type="password" id="password" name="passord" placeholder="Passord" required="" tabindex="4">
+        <input id="checkbox" type="checkbox" onchange="document.getElementById('password').type = this.checked ? 'text' : 'passord'"> Vis Passord
+      </div>
+
+
+        <button class="button" name="register" id="submit" tabindex="5" type="submit">REGISTRER </button>
+
+    </form>
+
+    <!--Denne siden er utviklet av Ola Bredviken, siste gang endret 22.01.2018 -->
+    <!--Denne siden er kontrollert av Fredrik Ravndal, siste gang 26.01.2018 -->

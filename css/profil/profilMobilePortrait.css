@@ -1,0 +1,259 @@
+/*
+Denne siden er utviklet av Fredrik Hulaas og Fredrik Ravndal. Sist endret 23.01.2018
+Denne siden er kontrollert av Ola Bredviken, Håvard Betten. Sist gang 26.01.2018
+ */
+
+body, html {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  font-family: georgia, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+/*
+*** header including logo.html
+*/
+.logosection {
+  width: 100%;
+  height: 82px;
+  margin: 0 auto 0 auto;
+  background-image: url("../../picture/default/background-desktop.png");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+#parent {
+    display: flex;
+}
+
+#child1 {
+    flex: 1;
+    width: 65%;
+}
+
+#child2 {
+    width: 35%;
+}
+
+#logo {
+    width: 70%;
+    height: 60px;
+    margin: 10px 0 0 20%;
+}
+
+/*
+*** nav including menu.html
+*/
+#faq {
+    background-color: lightblue;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.dropbtn {
+    background-color: coral;
+    color: white;
+    width: 100%;
+    height: 80px;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.dropdown-content ul {
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-content li {
+    list-style-type: none;
+}
+
+.dropdown-content li:nth-child(odd) {
+    background-color: #aeddf9;
+}
+
+.dropdown-content li:nth-child(even) {
+    background-color: #EBF4FB;
+}
+
+.dropdown-content a {
+    display: block;
+    font-size: 18px;
+    padding: 14px 20px;
+    text-decoration: none;
+
+}
+
+.dropdown-content a:hover {
+    background-color: orange;
+}
+
+.show {display:block;}
+
+
+/*
+*** Ramme for alle funkjsoner starter her!!
+*/
+
+
+#ytre {
+  background-color: #EBF4FB;
+  padding-top: 2%;
+}
+
+#rapporterer {
+  width: 30%;
+  border: 1px solid black;
+  background-color: red;
+  list-style-type: none;
+  margin: 0 auto 10px 34%;
+  overflow: hidden;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  padding: 4px 5px;
+  text-decoration: none;
+  color: black;
+}
+
+
+.rammeBilde {
+    border-bottom: 1px solid black;
+    background-color: lightsteelblue;
+    width: 60%;
+    margin: 10px auto 0 auto;
+}
+
+.rammeBrukernavn {
+    border-bottom: 1px solid black;
+}
+
+.overskrift1Bruker {
+    font-size: 25px;
+    border: 1px solid #ddd;
+    background-color: #c7d4e5;
+    text-align: center;
+    margin: 0;
+    padding: 5px 0 5px 0;
+
+}
+
+
+
+.bildeProfil {
+    display: block;
+    height: 180px;
+    width: 150px;
+    margin: auto;
+}
+
+#rammeBeskrivelse {
+  width: 100%;
+  height: 200px;
+  margin-left: 18.5%;
+  margin-top: 2%;
+  margin-bottom: -5%;
+}
+
+#rammeBeskrivelseIndre {
+  width: 100%;
+}
+
+#overskrift1Beskrivelse {
+    width: 60%;
+    border: 1px solid #ddd;
+    background-color: #c7d4e5;
+    margin: 0;
+    padding: 12px 0 12px 8px;
+    font-size: 20px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+
+}
+
+#textBeskrivelse {
+    background-color: #f2f2f2;
+    width: 61%;
+    height: 100px;
+}
+
+#rammeInteresser {
+    width: 100%;
+    height: 220px;
+    padding-top: 1%;
+    margin-bottom: -15%;
+}
+
+#rammeInteresserIndre {
+  width: 60%;
+  margin: auto;
+}
+
+.rammeStudium {
+    width: 100%;
+    height: 82px;
+    padding-bottom: 1%;
+}
+
+#rammeStudiumIndre {
+  width: 60%;
+  margin: auto;
+}
+
+table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th, table td{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+table tr:nth-child(odd){
+    background-color: white;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #c7d4e5;
+
+}
+
+#footerheader {
+    background-color: white;
+    text-align: center;
+}
+
+#utvikletAv {
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial;
+}

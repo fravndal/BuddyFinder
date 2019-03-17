@@ -1,0 +1,174 @@
+/*
+Denne siden er utviklet av Fredrik Hulaas, Fredrik Ravndal, Ola Bredviken. Sist endret 19.01.2018
+Denne siden er kontrollert av Fredrik Ravndal, Håvard Betten. Sist gang 26.01.2018
+ */
+
+ body, html {
+   height: 100%;
+   width: 100%;
+   background-color: #F0F8FF;
+   font-family: verdana, sans-serif;
+   margin: 0;
+   padding: 0;
+   background-image: url("../../picture/default/background-mobile.png");
+   background-repeat: no-repeat;
+   background-position: top;
+ }
+
+#container {
+
+}
+
+.logosection {
+  margin: auto;
+}
+
+
+
+#logo {
+  margin: 20px auto 20px auto;
+  width: 200px;
+  height: 50px;
+}
+
+
+#loggUt {
+  display: none;
+}
+
+#faq {
+
+}
+
+
+/* Dropdown Content */
+.dropdown-content {
+  position: relative;
+  background-color: lightgrey;
+  width: 250px;
+  box-shadow: 8px 8px 16px 0px rgba(0,0,0,0.2);
+  margin: 10px auto 0 auto;
+  border: 1px solid black;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 16px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display:block;
+}
+
+
+
+#changePW {
+  display: none;
+}
+
+.form {
+  position: relative;
+  width: 250px;
+  background-color: #aeddf9;
+  border-radius: 2px;
+  box-shadow: 0px 2px 29px 2px rgba(0,0,0,1);
+  margin: 5px auto 0 auto;
+  padding: 1px 0 5px 0;
+}
+
+#h1RegistrerDeg {
+  margin: 10px 0 5px 7px;
+  font-size: 20px;
+  font-family: Arial;
+}
+
+#slang {
+  font-family: Arial;
+  margin: 5px 0 10px 7px;
+}
+
+/* registration form */
+#contactform {
+
+}
+
+.contact {
+  font-size: 22px;
+  font-family: Arial;
+  margin: 20px 0 10px 7px;
+}
+
+#email {
+  margin: auto;
+  height: 28px;
+  width: 230px;
+  font-size: 15px;
+  margin: 0 0 0 7px;
+
+}
+
+#username {
+  height: 28px;
+  width: 230px;
+  font-size: 15px;
+  margin: 0 0 0 7px;
+}
+
+#password {
+  height: 28px;
+  width: 230px;
+  font-size: 15px;
+  margin: 0 0 0 7px;
+}
+
+#checkbox {
+
+}
+
+#submit {
+  background: #4b8df9;
+  color: #fbf7f7;
+  text-decoration: none;
+  text-shadow: 0 -1px 1px #222;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: Arial;
+  line-height: 1;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 1px 3px #999;
+  cursor: pointer;
+  margin: 20px 0 0 35px;
+  padding: 10px 50px 10px 50px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-box-shadow: 0 1px 3px #999;
+  -webkit-box-shadow: 0 1px 3px #999;
+}
+
+
+#footer {
+  text-align: center;
+  margin: 30px auto 0 auto;
+}
+
+#footerheader {
+  font-size: 22px;
+  font-family: Arial;
+}
+
+#utvikletAv {
+  font-size: 15px;
+  font-family: Arial;
+  width: 50%;
+  margin: 0 auto 0 auto;
+}

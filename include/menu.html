@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+
+<body>
+<!-- Denne filen blir included for å forhindre dobbeltkode -->
+  <nav id="faq">
+    <button onclick="dropdownFunction()" class="dropbtn">Meny</button>
+    <div id="myDropdown" class="dropdown-content">
+      <ul>
+        <li><a href="#" id="tilbake" style="font-family: Arial;">Tilbake</a></li>
+        <li><a href="minside.php" id="homepage" style="font-family: Arial;">Min Side</a></li>
+        <li><a class="linkAdministrerProfil" href="endreprofil.php">Administrer min profil</a></li>
+        <li><a href="arrangement.php">Arrangementer</a></li>
+        <li><a href="chat_index.php">Chat</a></li>
+        <li><a href="kontaktOss.php">Kontakt oss</a></li>
+        <li><a href="regler/regler.html">Regler & FAQ</a></li>
+        <?php
+        if ($_COOKIE['bruker_type'] == '1') {
+          echo '<li><a href="admin.php" style="font-family: Arial;">Back-end</a></li>';
+        } ?>
+        <li id="loggUtMeny"><a href="logout.php">Logg ut</a></li>
+      </ul>
+    </div>
+  </nav>
+
+<script>
+    /* Når bruker klikker på dropdown knappen, blir menyen vist og skjult */
+    function dropdownFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Lukker dropdown menyen hvis bruker klikker utenfor menyen
+    window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
+</script>
+</body>
+<!-- Denne siden er utviklet av Fredrik Ravndal og Ola Bredviken, siste gang endret 03.11.2017 -->
+<!-- Denne siden er kontrollert av Fredrik Hulaas og Håvard Betten, siste gang 03.11.2017 -->
+</html>

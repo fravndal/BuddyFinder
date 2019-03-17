@@ -1,0 +1,165 @@
+/*
+Denne siden er utviklet av Fredrik Hulaas, Fredrik Ravndal, Ola Bredviken. Sist endret 19.01.2018
+Denne siden er kontrollert av Fredrik Ravndal, Håvard Betten. Sist gang 26.01.2018
+ */
+
+ body, html {
+   height: 100%;
+   width: 100%;
+   background-color: #F0F8FF;
+   font-family: verdana, sans-serif;
+   margin: 0;
+   padding: 0;
+   background-image: url("../../picture/default/background-mobile.png");
+   background-repeat: no-repeat;
+   background-position: top;
+ }
+
+ /* desktop content */
+ #container {
+
+
+
+
+   width: 434px;
+   margin: 0 auto 0 auto;
+ }
+
+/* header including logo */
+.logosection {
+
+
+}
+/* This is the logo */
+
+#logo {
+
+
+
+}
+
+
+
+#mobilelogo {
+  display: none;
+}
+
+
+#loggUt {
+  display: none;
+}
+
+#faq {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    background-color: lightgrey;
+    width: 432px;
+    box-shadow: 8px 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 2px;
+    margin: 20px auto 0 auto;
+}
+
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 16px 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+
+
+
+
+#changePW {
+  display: none;
+}
+
+
+.form {
+  margin-right: auto;
+  margin-left: auto;
+  width: 400px;
+  height: 300px;
+  background-color: #aeddf9;
+  border-radius: 2px;
+  box-shadow: 0px 2px 29px 0px rgba(0,0,0,1);
+  padding: 1em;
+}
+
+#h1RegistrerDeg {
+  text-align: center;
+}
+
+#slang {
+  display: none;
+}
+
+
+/* form with login fields */
+#contactform {
+
+}
+
+
+.contact {
+  margin: 0 0 5px 0;
+}
+
+#email {
+  width: 200px;
+  height: 30px;
+}
+
+#username {
+  width: 200px;
+  height: 30px;
+}
+
+#password {
+  width: 200px;
+  height: 30px;
+}
+
+#submit {
+  color:white;
+  font-size: 18px;
+  font-family: Arial;
+  height: 35px;
+  width: 60%;
+  background-color: #ff9900;
+  border: 1px solid black;
+  border-radius: 2px;
+  margin-top: 20px;
+}
+
+#footer {
+    text-align: center;
+    margin: 30px 0 0 0;
+}
+
+#footerheader {
+    font-size: 22px;
+    font-family: Arial;
+}
+
+#utvikletAv {
+    font-size: 15px;
+    font-family: Arial;
+}

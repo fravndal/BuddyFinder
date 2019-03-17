@@ -1,0 +1,58 @@
+body, html {
+  height: 100%;
+  width: 99.5%;
+  background-color: white;
+  font-family: georgia, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#meny {
+  background-color: grey;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+
+p {
+  margin-left: 12px;
+}
+
+.dropdown-meny ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.dropdown-meny ul li {
+}
+
+.dropdown-meny a {
+    display: block;
+    text-align: center;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 4px 4px;
+}
+
+
+.dropdown-meny a:hover {
+  background-color: orange;
+}
+
+#administrerer, #rapporting, #regleradm, #auto, #mins {
+  float:left;
+}
+
+#logg-ut {
+  float:right;
+}
+
+#footer {
+  text-align: center;
+}
+
+
+/* Denne siden er utviklet av Fredrik Hulaas, sist endret 09.04.2018.
+  Denne siden er kontrollert av Ola Bredviken. sist gang 09.04.2018 */

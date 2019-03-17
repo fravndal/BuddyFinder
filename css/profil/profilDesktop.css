@@ -1,0 +1,247 @@
+/*
+Denne siden er utviklet av Fredrik Hulaas og Fredrik Ravndal. Sist endret 23.01.2018
+Denne siden er kontrollert av Ola Bredviken, Håvard Betten. Sist gang 26.01.2018
+ */
+
+body, html {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  font-family: georgia, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+/*
+*** header including logo.html
+*/
+.logosection {
+  width: 100%;
+  height: 80px;
+  margin: 0 auto 0 auto;
+  background-image: url("../../picture/default/background-desktop.png");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+main {
+    background-color: #EBF4FB;
+    display: flex;
+}
+
+#kolonne1 {
+    flex: 1;
+    width: 49%;
+    margin-left: 20%;
+}
+
+#kolonne2 {
+    width: 49%;
+}
+
+#logo {
+    width: 230px;
+    height: 60px;
+    margin: 10px 0 0 20%;
+}
+
+
+.dropbtn {
+  display: none;
+}
+
+
+/*
+*** nav including menu.html
+*/
+#faq {
+    background-color: lightblue;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.dropdown-content {
+}
+
+.dropdown-content ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.dropdown-content ul li {
+    float: left;
+}
+
+.dropdown-content a {
+
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    padding: 14px 20px;
+    text-decoration: none;
+
+}
+
+#homepage {
+    margin-left: 150px;
+}
+
+.dropdown-content a:hover {
+  background-color: orange;
+}
+
+
+/*
+*** Ramme for alle funkjsoner starter her!!
+*/
+
+#rapporterer {
+  width: 30%;
+  border: 1px solid black;
+  background-color: red;
+  list-style-type: none;
+  margin: 10px auto 10px auto;
+  overflow: hidden;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  padding: 8px 13px;
+  text-decoration: none;
+  color: black;
+}
+
+.rammeBilde {
+    border-bottom: 1px solid black;
+    background-color: lightsteelblue;
+    width: 45%;
+    margin: auto;
+}
+
+.rammeBrukernavn {
+    border-bottom: 1px solid black;
+}
+
+.overskrift1Bruker {
+    font-size: 25px;
+    border: 1px solid #ddd;
+    background-color: #c7d4e5;
+    text-align: center;
+    margin: 0;
+    padding: 5px 0 5px 0;
+}
+
+
+
+.bildeProfil {
+    display: block;
+    height: 180px;
+    width: 70%;
+    margin: auto;
+}
+
+
+#overskrift1Beskrivelse {
+    width: 43.5%;
+    border: 1px solid #ddd;
+    background-color: #c7d4e5;
+    padding: 12px 0 12px 8px;
+    font-size: 15px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#textBeskrivelse {
+    background-color: #f2f2f2;
+    width: 70%;
+    height: 100px;
+}
+
+#rammeBeskrivelse {
+  width: 100%;
+  height: 200px;
+  margin-left: 27.5%;
+}
+
+#rammeBeskrivelseIndre {
+  width: 100%;
+  margin: auto;
+}
+
+#rammeInteresser {
+    width: 100%;
+    height: 220px;
+    padding-top: 10px;
+    margin-left: -20%;
+    margin-top: 5%;
+}
+
+#rammeInteresserIndre {
+  width: 40%;
+  margin: auto;
+}
+
+.rammeStudium {
+    width: 100%;
+    height: 82px;
+    padding-bottom: 10px;
+    margin-left: -20%;
+}
+
+#rammeStudiumIndre {
+  width: 40%;
+  margin: auto;
+}
+
+table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th, table td{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+table tr:nth-child(odd){
+    background-color: white;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #c7d4e5;
+
+}
+
+
+
+
+
+
+
+#tilbake {
+  display: none;
+}
+
+#footerheader {
+    background-color: white;
+    text-align: center;
+}
+
+#utvikletAv {
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial;
+}

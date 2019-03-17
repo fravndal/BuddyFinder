@@ -1,0 +1,51 @@
+/*
+Denne siden er utviklet av Fredrik Hulaas og Fredrik Ravndal. Sist endret 23.01.2018
+Denne siden er kontrollert av Ola Bredviken, Håvard Betten. Sist gang 26.01.2018
+ */
+
+body, html {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    font-family: georgia, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*
+*** header including logo.html
+*/
+.logosection {
+    width: 100%;
+    height: 110px;
+    margin: 0 auto 0 auto;
+    background-image: url("../../picture/default/background-desktop.png");
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+
+#desktoplogo {
+    width: 230px;
+    height: 90px;
+    margin: 10px 0 0 15%;
+}
+
+#mobilelogo {
+    display: none;
+}
+
+
+
+
+#footerheader {
+    background-color: white;
+    text-align: center;
+}
+
+#utvikletAv {
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial;
+}

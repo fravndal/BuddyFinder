@@ -1,0 +1,319 @@
+/*
+Denne siden er utviklet av Fredrik Hulaas og Fredrik Ravndal. Sist endret 23.01.2018
+Denne siden er kontrollert av Ola Bredviken, Håvard Betten. Sist gang 26.01.2018
+ */
+
+body, html {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  font-family: georgia, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+/*
+*** header including logo.html
+*/
+.dropbtn {
+    display: none;
+}
+
+#tilbake {
+    display: none;
+}
+
+#loggUtMeny {
+    float: right;
+}
+
+.logosection {
+    width: 100%;
+    height: 80px;
+    margin: 0 auto 0 auto;
+    background-image: url("../../picture/default/background-desktop.png");
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+
+#logo {
+    width: 230px;
+    height: 60px;
+    margin: 10px 0 0 20%;
+}
+
+
+
+/*
+*** nav including menu.html
+*/
+#faq {
+
+    background-color: lightblue;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.dropdown-content {
+
+
+
+
+}
+
+.dropdown-content ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.dropdown-content ul li {
+    float: left;
+}
+
+.dropdown-content a {
+
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    padding: 14px 20px;
+    text-decoration: none;
+
+}
+
+#homepage {
+
+    margin-left: 20px;
+}
+
+.dropdown-content a:hover {
+  background-color: orange;
+}
+
+
+/*
+*** Ramme for alle funkjsoner starter her!!
+*/
+
+
+#ytre {
+    background-color: #EBF4FB;
+    margin: 0 0 0 0;
+    padding: 0;
+    height: 500px;
+    width: 100%;
+    display: flex;
+
+
+
+}
+
+
+#kolonne1 {
+    width: 25%;
+    height: 460px;
+    background-color: #EBF4FB;
+    border-right: none;
+    margin: 20px 0 0 10px;
+}
+
+#rammeBilde {
+    border-bottom: 1px solid black;
+    background-color: #EBF4FB;
+}
+
+#rammeBrukernavn {
+    border-bottom: 1px solid black;
+}
+
+#overskrift1Bruker {
+    font-size: 25px;
+    border: 1px solid #ddd;
+    background-color: #c7d4e5;
+    text-align: center;
+    margin: 0;
+    padding: 5px 0 5px 0;
+
+}
+
+
+
+#bildeProfil {
+    display: block;
+    height: 180px;
+    width: 150px;
+    margin: auto;
+}
+
+#rammeVelkommen {
+    margin: 0 0 0 40px;
+
+}
+
+#overskrift1Velkommen {
+    font-size: 30px;
+
+}
+
+#overskrift2Info {
+    font-size: 20px ;
+}
+
+#paragrafInnloggetBruker {
+
+}
+
+#pragrafEpostBruker {
+
+}
+
+#paragrafSynligBruker {
+
+}
+
+#kolonne2 {
+    border: 20px solid #EBF4FB;
+    background-color: #EBF4FB;
+    width: 25%;
+    height: 460px;
+
+}
+
+#overskrift1Beskrivelse {
+    border: 1px solid #ddd;
+    background-color: #c7d4e5;
+    margin: 0;
+    padding: 12px 0 12px 8px;
+    font-size: 20px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+
+}
+
+#textBeskrivelse {
+    background-color: #f2f2f2;
+    width: 98.5%;
+    height: 100px;
+}
+
+#rammeInteresser {
+    height: 225px;
+    width: 100%;
+}
+
+#rammeStudium {
+    height: 83px;
+    width: 100%;
+}
+
+#kolonne3 {
+    border: 20px solid #EBF4FB;
+    border-left-width: 0px;
+
+    background-color: #EBF4FB;
+    width: 25%;
+    height: 460px;
+}
+
+
+
+
+
+
+
+
+
+
+#kolonne4 {
+    margin: 0;
+    border: 20px solid #EBF4FB;
+    border-left: none;
+    background-color: #EBF4FB;
+    width: 25%;
+    height: 460px;
+
+}
+
+#overskrift1Sok {
+    font-size: 15px;
+}
+
+#overskrift2Sok1, #overskrift2Sok2, #overskrift2Sok3 {
+    font-size: 15px;
+
+
+}
+
+#rullGardin {
+    width: 180px;
+    height: 30px;
+}
+
+#keyword {
+    width: 175px;
+    height: 20px;
+}
+
+#sokKnapp {
+    width: 175px;
+    margin: 0;
+    height: 30px;
+}
+
+#rammeOverflowSok {
+    height: 370px;
+}
+
+table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th, table td{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+table tr:nth-child(odd){
+    background-color: white;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #c7d4e5;
+
+}
+
+input[type=text]:focus {
+    background-color: yellow;
+}
+input[type=search]:focus {
+    background-color: yellow;
+}
+
+
+
+#footerheader {
+    background-color: white;
+    text-align: center;
+    font-size: 27px;
+}
+
+#utvikletAv {
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial;
+}

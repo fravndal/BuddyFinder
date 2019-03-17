@@ -1,0 +1,135 @@
+/* Denne siden er laget av Håvard Betten og Ola Bredviken, siste gang endret 25.01.2018. */
+/* Denne siden er kontrollert av Ola bredviken og Fredrik Hulaas, siste gang 25.01.2018. */
+
+body, html {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  font-family: georgia, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+/*
+*** header including logo.html
+*/
+.logosection {
+  width: 100%;
+  height: 80px;
+  margin: 0 auto 0 auto;
+  background-image: url("../../picture/default/background-desktop.png");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+
+#logo {
+  width: 230px;
+  height: 60px;
+  margin: 10px 0 0 20%;
+}
+
+
+
+
+/*
+*** nav including menu.html
+*/
+#faq {
+  background-color: lightblue;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.dropbtn {
+  display: none;
+}
+
+.dropdown-content {
+
+
+
+
+}
+
+.dropdown-content ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.dropdown-content ul li {
+  float: left;
+}
+
+.dropdown-content a {
+
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  padding: 14px 20px;
+  text-decoration: none;
+
+}
+
+.dropdown-content a:hover {
+  background-color: orange;
+}
+
+
+#tilbake {
+  display: none;
+}
+
+#loggUtMeny {
+  float: right;
+}
+
+#homepage {
+
+  margin-left: 150px;
+}
+
+#ytre {
+  background-color: #EBF4FB;
+  width: 100%;
+  margin: 0;
+}
+
+#regler {
+  border: 1px solid black;
+  border-top: 0;
+  width: 30%;
+  margin: 0 auto 0 auto;
+  padding: 20px;
+}
+
+#overskrift {
+  margin: 0;
+  padding: 0 0 20px 0;
+  font-size: 20px;
+
+}
+
+li {
+  margin: 5px;
+}
+
+
+
+#footerheader {
+  background-color: white;
+  text-align: center;
+  font-size: 27px;
+}
+
+#utvikletAv {
+  text-align: center;
+  font-size: 15px;
+  font-family: Arial;
+}
+
+
+

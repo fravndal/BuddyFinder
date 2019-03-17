@@ -1,0 +1,120 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  font-family: georgia, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.logosection {
+  width: 100%;
+  height: 80px;
+  margin: 0 auto 0 auto;
+  background-image: url("../../picture/default/background-desktop.png");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+#logo {
+  width: 230px;
+  height: 60px;
+  margin: 10px 0 0 20%;
+}
+
+#nav2 {
+  display: block;
+}
+
+#nav3 {
+  margin-left: 5%;
+}
+
+.dropbtn {
+  display: none;
+}
+
+#tilbake {
+  display: none;
+}
+
+#loggUtMeny {
+  float: right;
+}
+
+#faq {
+  border-bottom: 1px solid black;
+  background-color: lightblue;
+}
+
+.dropdown-content {
+}
+
+.dropdown-content ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.dropdown-content ul li {
+  float: left;
+}
+
+.dropdown-content a {
+
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  padding: 14px 20px;
+  text-decoration: none;
+
+}
+
+#homepage {
+  margin-left: 150px;
+}
+
+.dropdown-content a:hover {
+  background-color: orange;
+}
+
+.left-message{
+  float:left;padding-right:10px;
+}
+.right-message{
+  float:right;padding-left:300px;
+}
+
+#h1 {
+  margin-left: 40%;
+}
+#chatContainer{
+  width:30%;
+  height: 50%;
+  display:flex;
+  flex-direction: column;
+  margin-left: 35%;
+  background-color: white;
+
+}
+
+#chatform {
+  margin-top: 60%;
+}
+
+#content {
+
+}
+
+#footerheader {
+    background-color: white;
+    text-align: center;
+    margin-left: -80%;
+}
+
+#utvikletAv {
+    font-size: 15px;
+    font-family: Arial;
+    display: block;
+}

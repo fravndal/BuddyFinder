@@ -1,0 +1,22 @@
+body, html {
+  height: 98%;
+  width: 100%;
+  font-family: georgia, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #EBF4FB;
+}
+
+aside {
+  margin-left: 30px;
+}
+
+input[type="submit"] {
+  height: 30px;
+}
+
+select {
+  height: 30px;
+  width: 189px;
+  margin-top: 10px;
+}

@@ -1,0 +1,11 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  background-color: #F0F8FF;
+  font-family: verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("../../picture/default/background-mobile.png");
+  background-repeat: no-repeat;
+  background-position: top;
+}

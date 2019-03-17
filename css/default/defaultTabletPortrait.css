@@ -1,0 +1,234 @@
+/*
+Denne siden er utviklet av Fredrik Hulaas og Fredrik Ravndal. Sist endret 03.11.2017
+Denne siden er kontrollert av Ola Bredviken, Håvard Betten. Sist gang 03.11.2017
+ */
+
+body, html {
+  height: 100%;
+  width: 100%;
+  background-color: #F0F8FF;
+  font-family: verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("../../picture/default/background-mobile.png");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+/* top page logo */
+.logosection {
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 100px;
+}
+
+#logo {
+  height: 120px;
+  width: 300px;
+  margin-top: 30px;
+
+}
+
+
+
+/* Loginform */
+.formtop {
+  margin-top: 70px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 400px;
+  height: 280px;
+  background-color: #aeddf9;
+  border-radius: 2px;
+  box-shadow: 0px 2px 29px 0px rgba(0,0,0,1);
+  padding: 1em;
+}
+
+/* username container*/
+#logbruker {
+  width: 80%;
+
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+}
+
+/* password container*/
+#logpassord {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* button for desktop*/
+#headerbutton {
+  display: none;
+}
+
+/* Logg inn text*/
+#loginlabel {
+  width: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* log in button container */
+#loginbutton {
+  margin-top: 8px;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 25px;
+}
+
+/* log in button */
+.login {
+  color:white;
+  font-size: 18px;
+  font-family: Arial;
+  height: 35px;
+  width: 49%;
+  background-color: #ff9900;
+  border: 1px solid black;
+  border-radius: 2px;
+  margin-top: 10%;
+}
+
+#errorForm {
+  margin: 30px 0 0 0;
+}
+
+#errorParagraf {
+  margin: 5px auto 5px auto;
+  padding: 0;
+  width: 435px;
+  background-color: tan;
+  font-size: 20px;
+  text-align: center
+
+}
+
+input[type=text]:focus {
+  background-color: yellow;
+}
+input[type=password]:focus {
+  background-color: yellow;
+}
+input[type=email]:focus {
+  background-color: yellow;
+}
+.registerTablet {
+   color:white;
+   font-size: 18px;
+
+   background-color: #ff9900;
+   border: 1px solid black;
+   border-radius: 2px;
+   padding: 6px 25px 6px 25px;
+   text-decoration: none;
+
+}
+
+/* username inputfield */
+.brukernavnmobile {
+  width: 100%;
+  height: 35px;
+  padding: 3px;
+  font-size: 20px;
+}
+
+/* password inputfield */
+.passordmobile {
+  width: 100%;
+  height: 35px;
+  padding: 3px;
+  font-size: 20px;
+}
+
+/* desktop content */
+#container {
+
+}
+
+#infospan {
+  display: none;
+}
+
+/* register text */
+#registerText {
+  display: none;
+
+}
+
+/* footer nav menu */
+#faq {
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+#navheader {
+  display: none;
+}
+
+
+/* registerbutton */
+.registerMobile {
+  display: none;
+}
+
+/* registerbutton container */
+#registerbtn {
+    display: none;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    background-color: lightgrey;
+    width: 432px;
+    box-shadow: 8px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 2px;
+    margin: 20px auto 0 auto;
+}
+
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 16px 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+/* for desktop*/
+#reg {
+  display: none;
+}
+
+#footer {
+  text-align: center;
+  margin: 30px 0 0 0;
+}
+
+#footerheader {
+  font-size: 22px;
+  font-family: Arial;
+}
+
+#utvikletAv {
+  font-size: 15px;
+  font-family: Arial;
+}

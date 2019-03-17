@@ -1,0 +1,360 @@
+/*
+Denne siden er utviklet av Fredrik Hulaas og Fredrik Ravndal. Sist endret 03.11.2017
+Denne siden er kontrollert av Ola Bredviken, Håvard Betten. Sist gang 03.11.2017
+ */
+
+body, html {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  font-family: georgia, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 110px;
+  width: 100%;
+  margin: 0 auto 0 auto;
+  background-image: url("../../picture/default/background-desktop.png");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.section {
+  width: 900px;
+  margin: 0 auto 0 auto;
+}
+/* header including logo */
+.logosection {
+  width: 100%;
+  height: 110px;
+
+}
+
+#desktoplogo {
+  width: 230px;
+  height: 90px;
+  margin: 10px 0 0 0;
+  clear: right;
+}
+
+#mobilelogo {
+  display: none;
+}
+
+/* top-right login form, elements beneath */
+.formtop {
+
+  float: right;
+  clear: left;
+  margin: -70px -20px 0 0;
+  width: 420px;
+  height: 70px;
+  font-size: 18px;
+
+  display: inline-flex;
+}
+
+.brukernavnTekst {
+  width: 125px;
+}
+
+.brukernavnmobile {
+  width: 150px;
+  height: 25px;
+  font-size: 16px;
+}
+
+.passordTekst {
+  width: 125px;
+}
+
+.passordmobile {
+  width: 150px;
+  height: 25px;
+  font-size: 16px;
+}
+
+/* username container*/
+#logbruker {
+  margin: 0 5px 0 0;
+}
+
+/* password container*/
+#logpassord {
+  margin: 0 10px 0 0;
+}
+
+/* loginbutton container*/
+#loginbutton {
+  margin: 12px 0 0 0;
+}
+
+label {
+  display: block;
+  clear: right;
+}
+
+/* loginbutton for mobile*/
+#loginlabel {
+  display: none;
+}
+
+
+/* loginbutton, hover beneath */
+.login {
+  background: #4b8df9;
+  color: #fbf7f7;
+  text-decoration: none;
+  text-shadow: 0 -1px 1px #222;
+  font-weight: bold;
+  font-size: 14px;
+  font-family:Verdana, Geneva, sans-serif;
+  line-height: 1;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 1px 3px #999;
+  cursor: pointer;
+  margin: 10px 30px 0 0;
+  padding: 5px 10px 6px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-box-shadow: 0 1px 3px #999;
+  -webkit-box-shadow: 0 1px 3px #999;
+}
+
+#errorForm {
+
+}
+
+#errorParagraf {
+  margin: 0 auto 0 auto;
+  padding: 0;
+  width: 100%;
+  background-color: lightsalmon;
+  font-size: 20px;
+  text-align: center
+
+}
+
+input[type=text]:focus {
+  background-color: yellow;
+}
+input[type=password]:focus {
+  background-color: yellow;
+}
+input[type=email]:focus {
+  background-color: yellow;
+}
+
+.registerTablet {
+  display: none;
+}
+
+.login:hover {
+  background-color: #2a78f6;
+}
+
+
+.registerMobile {
+  display: none;
+}
+
+/* register for mobile */
+#registerbtn {
+  display: none;
+}
+
+/* content of the page */
+#container {
+  height: 600px;
+  width: 100%;
+  background-color: #edeeef;
+}
+
+#topcontent {
+  width: 850px;
+  margin: 0 auto 0 auto;
+
+}
+/* top content in container */
+#reg {
+  height: 400px;
+  width: 400px;
+  float: right;
+  margin: 30px 0 0 0;
+  background-color: white;
+  /*box-shadow: 0px 0px 15px -2px;*/
+  border: solid 0.5px black;
+  border-radius: 5px;
+  padding: 16px 16px;
+}
+
+#h1RegistrerDeg {
+  margin: 0;
+  font-size: 35px;
+  font-family: Arial;
+}
+
+#slang {
+  font-family: Arial;
+  margin: 5px 0 10px 0;
+}
+
+/* registration form */
+#contactform {
+
+}
+
+.contact {
+  font-size: 22px;
+  font-family: Arial;
+  margin: 20px 0 10px 0;
+}
+
+#email {
+  height: 28px;
+  width: 250px;
+  font-size: 15px;
+
+}
+
+#username {
+  height: 28px;
+  width: 250px;
+  font-size: 15px;
+
+}
+
+#password {
+  height: 28px;
+  width: 250px;
+  font-size: 15px;
+
+}
+
+#checkbox {
+
+}
+
+#submit {
+  background: #4b8df9;
+  color: #fbf7f7;
+  text-decoration: none;
+  text-shadow: 0 -1px 1px #222;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: Arial;
+  line-height: 1;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 1px 3px #999;
+  cursor: pointer;
+  margin: 20px 0 0 0;
+  padding: 10px 20px 10px 20px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-box-shadow: 0 1px 3px #999;
+  -webkit-box-shadow: 0 1px 3px #999;
+}
+
+#infospan {
+  width: 350px;
+  padding: 16px 16px;
+  float: left;
+  margin: 30px 0 0 0;
+  background-color: white;
+  border-radius: 5px;
+  border: solid 0.5px black;
+  /*box-shadow: 0px 0px 15px -2px;*/
+}
+
+#articleHeader {
+  font-family: Arial;
+  font-size: 35px;
+  margin: 0;
+}
+
+#articleHeader2 {
+  font-family: Arial;
+  font-size: 22px;
+  margin: 0;
+}
+
+#article1 {
+  font-family: Arial;
+}
+
+#article2 {
+  font-family: Arial;
+}
+
+#article3 {
+  font-family: Arial;
+}
+
+#tekst1d {
+  display: none;
+}
+
+
+
+
+
+/* for mobile */
+.register {
+  display: none;
+}
+
+#faq {
+  width: 382px;
+  height: 141px;
+  background-color: white;
+  border-radius: 5px;
+  /*box-shadow: 0px 0px 15px -2px;*/
+  margin: 30px 0 0 0px;
+  text-align: center;
+  float: left;
+  border: solid 0.5px black;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    background-color: none;
+}
+
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: inline;
+    border: solid 1px black;
+    border-radius: 4px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: orange;
+
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+#footer {
+  text-align: center;
+}
+
+#footerheader {
+  font-size: 25px;
+  font-family: Arial;
+}
+
+#utvikletAv {
+  font-size: 15px;
+  font-family: Arial;
+}
